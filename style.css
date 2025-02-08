@@ -1,24 +1,32 @@
+/* Global Styles */
 body {
     background-color: #3E2723;
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
+/* Container */
 .container {
     margin-top: 50px;
 }
 
+/* Title */
 h1 {
+    font-size: 2.5rem;
     color: #D2691E;
 }
 
+/* Message */
 .message {
+    font-size: 1.2rem;
     color: #D2B48C;
-    font-size: 18px;
     margin-bottom: 20px;
 }
 
+/* Card */
 .card {
     background-color: #5D4037;
     padding: 20px;
@@ -26,22 +34,33 @@ h1 {
     width: 300px;
     margin: auto;
     text-align: center;
+    border: 2px solid #8B4513;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Image */
 .choco-img {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
+/* Button */
 button {
     background-color: #8B4513;
     color: white;
     padding: 10px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
+    font-size: 16px;
 }
 
+button:hover {
+    background-color: #A0522D;
+}
+
+/* Surprise Message */
 .hidden {
     display: none;
 }
@@ -52,4 +71,5 @@ button {
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
+    font-size: 18px;
 }
