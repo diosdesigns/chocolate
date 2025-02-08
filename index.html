@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Day Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Chocolate Day, My Bandro! 🍫❤️</h1>
+        <p class="message">
+            I wish I could give you real chocolate right now, but until then, here’s a sweet virtual surprise just for you! 🍬💕
+        </p>
+        <div class="card">
+            <img src="chocolate.jpg" alt="Chocolate" class="choco-img">
+            <h2>A Sweet Surprise for My Love</h2>
+            <p>Just a small gesture to show how much I love and appreciate you. Enjoy this virtual treat! 🍫❤️</p>
+            <button onclick="showSurprise()">🎁 Open Your Surprise!</button>
+            <div id="surprise" class="hidden">
+                ❤️ You are my sweetest joy! Love you always! ❤️
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSurprise() {
+            document.getElementById("surprise").classList.remove("hidden");
+        }
+    </script>
+</body>
+</html>
